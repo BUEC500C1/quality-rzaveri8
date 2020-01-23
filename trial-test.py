@@ -1,7 +1,7 @@
 # imports
 
 import pytest
-import arab2roman
+import int2roman
 
 # content of test_class.py
 class TestClass:
