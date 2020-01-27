@@ -64,6 +64,3 @@ def int_to_Roman(number):
             temp_num -= val[i]
         i += 1
     return roman_num
-
-#check_input(userIn)
-#print 'The Converted Number Is:', int_to_Roman(99999)
