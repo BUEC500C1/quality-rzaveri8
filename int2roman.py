@@ -37,6 +37,9 @@ def int_to_Roman(number):
         if userInput <=0:
             return "ERROR: Not a positive integer"
             break
+        if userInput >99999:
+            return "Enter a valid Roman Numeral or Integer from 1 to 99999"
+            break
         else:
            break
            #roman_num = number
@@ -63,4 +66,4 @@ def int_to_Roman(number):
     return roman_num
 
 #check_input(userIn)
-#print 'The Converted Number Is:', int_to_Roman('op')
+print 'The Converted Number Is:', int_to_Roman(99999)

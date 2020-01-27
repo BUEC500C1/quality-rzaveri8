@@ -23,4 +23,4 @@ Pytest 4.6.9
 ## Running the project
 
 1. Install the dependencies. Navigate to the project repo and type the command 'python int2roman.py'.
-2. To test type the command pytest int2roman.py.
+2. To test type the command pytest -q trial-test.py.
