@@ -7,26 +7,6 @@ import pytest
 
 # Below code for user input...
 
-
-"""
-def inputNumber(message):
-  while True:
-    try:
-       userInput = int(raw_input(message))
-    except ValueError:
-       print("Not an integer! Try again.")
-       continue
-    if userInput <=0:
-        print("Please input a number greater than 0")
-    else:
-       return userInput
-       break
-
-
-#MAIN PROGRAM STARTS HERE:
-MyNum = inputNumber("Please input integer to convert:")
-"""
-
 def int_to_Roman(number):
     while True:
         try:
