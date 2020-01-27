@@ -1,5 +1,5 @@
 import pytest
- # Below code from
+ # Some of the below code was adapted from the following website
  # https://www.w3resource.com/python-exercises/class-exercises/python-class-exercise-1.php
  # user enters a number and it gets converted
  # if user does not enter a number an error pops up and it will not be accepted.
@@ -66,4 +66,4 @@ def int_to_Roman(number):
     return roman_num
 
 #check_input(userIn)
-print 'The Converted Number Is:', int_to_Roman(99999)
+#print 'The Converted Number Is:', int_to_Roman(99999)
