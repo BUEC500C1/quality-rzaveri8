@@ -5,6 +5,9 @@ import pytest
  # if user does not enter a number an error pops up and it will not be accepted.
 #How to make sure the user enters a number (integer) - www.101computing.net
 
+# Below code for user input...
+
+
 """
 def inputNumber(message):
   while True:
@@ -23,8 +26,20 @@ def inputNumber(message):
 #MAIN PROGRAM STARTS HERE:
 MyNum = inputNumber("Please input integer to convert:")
 """
+
 def int_to_Roman(number):
-    #roman_num = number
+    while True:
+        try:
+           userInput = int((number))
+        except ValueError:
+            return "ERROR: Not an integer"
+            break
+        if userInput <=0:
+            return "ERROR: Not a positive integer"
+            break
+        else:
+           break
+           #roman_num = number
     val = [
         1000, 900, 500, 400,
         100, 90, 50, 40,
@@ -48,4 +63,4 @@ def int_to_Roman(number):
     return roman_num
 
 #check_input(userIn)
-#print 'The Converted Number Is:', int_to_Roman(MyNum)
+#print 'The Converted Number Is:', int_to_Roman('op')
